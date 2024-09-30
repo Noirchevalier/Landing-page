@@ -1,111 +1,169 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #eeeeee;
-    display: flexbox;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  display: flexbox;
 }
 header {
-    background-color: #1c388c;
-    color: #fff;
-    padding: 0 0;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-section {
-    display: flex;
+  background-color: #1c388c;
+  color: #fff;
 }
 
-h1 {
-    font-weight: bold;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header-sign-in-button {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  background: transparent;
+  border: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.button-wrapper {
+  max-width: 1200px;
+  margin: 32px auto 0px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.menu-text {
+  font-size: 20px;
+}
+
+.section-header {
+  display: flex;
+  background-color: #d48e84;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.section-header-content {
+  margin: auto 20px;
+}
+
+.img-header {
+  width: 36%;
+}
+
+section {
+  display: flex;
+}
+
+.h1-header {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.p-header {
+  color: white;
+  font-size: 16px;
+}
+
+.button-body {
+  padding: 10px 40px;
+  border-color: #000;
+}
+
+.section-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 h2 {
-    color: #d48e84;
-    font-size: 24px;
-    font-weight: bold;
+  color: #d48e84;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 p {
-    color: #6e6e6e;
-    font-weight: bold;
+  color: #6e6e6e;
+  font-weight: bold;
 }
 
 .info-block {
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;   
-    border-radius: 8px;     
-    padding: 20px;        
-    margin: 20px;             
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    max-width: 600px;          
-    font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  font-family: "Poppins", sans-serif;
 }
 
 .info-block-2 {
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;   
-    border-radius: 8px;     
-    padding: 20px;        
-    margin: 20px;             
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    max-width: 1300px;          
-    font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  font-family: "Poppins", sans-serif;
 }
 .info-block-3 {
-    background-color: #d48e84;
-    border: 1px solid #ccc;   
-    border-radius: 8px;     
-    padding: 20px;        
-    margin: 20px;             
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    width: 1300px;          
-    font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d48e84;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  font-family: "Poppins", sans-serif;
 }
 
 .info-block h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 .info-block p {
-    line-height: 1.6; /* Spacing between lines */
-}
-
-.menu-icon {
-    font-size: 24px;
-}
-.menu-text {
-    font-size: 20px;
-    margin-left: 10px;
+  line-height: 1.6; /* Spacing between lines */
 }
 
 .search-bar {
-    padding: 8px;
-    width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding-right: 35px;
+  padding: 8px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-right: 35px;
 }
 
 .search-button {
-    padding: 8px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .search-button i {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 footer {
-    background-color: #1c388c;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  background-color: #1c388c;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

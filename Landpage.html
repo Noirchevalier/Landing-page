@@ -1,106 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Hair main page </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair main page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div style="float: left; width: 5px; margin-left: 300px;">
-            <img width="200px" src="panvel-descontos.png" alt="Panvel Logo">
+      <div class="header-content">
+        <img width="220px" src="panvel-descontos.png" alt="Panvel Logo" />
+        <span class="menu-text"> &#9776; Categorias </span>
+        <div>
+          <input
+            type="text"
+            class="search-bar"
+            placeholder="O que você procura?"
+          />
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"></i>
+          </button>
         </div>
-
-        <div style="float: left; margin-left: 250px; margin-top: 20px;">
-            <span class="menu-icon">&#9776;</span>
-            <span class="menu-text">Categorias</span>
-        </div>
-
-        <div style="margin-right: 700px; padding-top: 18px;">
-            <input type="text" class="search-bar" placeholder="O que você procura?">
-            <button type="submit" class="search-button">
-                <i class="fas fa-search"></i>
-            </button>
-            
-        </div>
-
-        <div style="position: absolute; margin-left:  1300px; margin-top: 5px;">
-            <h1 style="font-size: 25px;">Entrar <div><i"  class="material-icons">person </i></div> </h1>
-        </div>
-
+        <button class="header-sign-in-button">
+          Entrar
+          <span class="material-icons">person</span>
+        </button>
+      </div>
     </header>
-    
-    <section>
-        <div style="float: left;"><img width="899px" height="400px" src="depositphotos_300203228-stock-photo-beauty-brunette-girl-long-shiny.jpg" alt="Beautiful Woman"></div>
-        <div style="float: right;  background-color: #d48e84; height: 400px; padding-right: 411px;">
-            <h1 style="color: #f9f0ea; margin-top: 120px; margin-left: 40px; font-size: 35px;">Capilar <br> <b>Fortalecimento</b></h1>
-            <p style=" margin-left: 40px; font-weight: bold; color: #fff;">Com suas fórmulas especiais, os shampoos dermocosméticos ajudam a <br> fortalecer o cabelo, combater a queda e trata a tão indesejada caspa.</p>
-        </div>
+
+    <section class="section-header">
+      <img
+        class="img-header"
+        src="depositphotos_300203228-stock-photo-beauty-brunette-girl-long-shiny.jpg"
+        alt="Beautiful Woman"
+      />
+      <div class="section-header-content">
+        <h1 class="h1-header">
+          Capilar <br />
+          <b>Fortalecimento</b>
+        </h1>
+        <p class="p-header">
+          Com suas fórmulas especiais, os shampoos dermocosméticos ajudam a
+          <br />
+          fortalecer o cabelo, combater a queda e trata a tão indesejada caspa.
+        </p>
+      </div>
     </section>
 
-    <section style="margin-left: 1500px; padding-top: 50px;">
-        <button style="padding: 10px 30px; margin-right: 20px; border-color: #000;"><p>Quantidade</p></button>
-        <button style="padding: 10px 40px; border-color: #000;"><p>Ordenar</p></button>
+    <section class="button-wrapper">
+      <button class="button-body">Quantidade</button>
+      <button class="button-body">Ordenar</button>
     </section>
 
-    <section style="background-color: #eeeeee; height: 10px; margin-top: 40px; ">
-        <h2 style="margin-left: 300px;">Shampoos e dermocosméticos</h2>
+    <section class="section-body">
+      <h2>Shampoos e dermocosméticos</h2>
     </section>
 
-    <section>
-        <p style="margin-left: 300px;"><br><br>Os shampoos dermocosméticos possuem fórmulas especiais que, além de tratar os fios, fortalecem a saúde do couro cabeludo - a pele sensível onde está a raiz dos cabelos. Eles regulam a oleosidade, hidratam e ajudam a combater a caspa e a queda dos fios.</p>
+    <section class="section-body">
+      <p>
+        <br /><br />Os shampoos dermocosméticos possuem fórmulas especiais que,
+        além de tratar os fios, fortalecem a saúde do couro cabeludo - a pele
+        sensível onde está a raiz dos cabelos. Eles regulam a oleosidade,
+        hidratam e ajudam a combater a caspa e a queda dos fios.
+      </p>
     </section>
 
-    <section style="margin-left: 280px;">
-        <div class="info-block">
-            <h2>Como escolher o melhor shampoo</h2>
-            <p style="margin-top: 10px;">
-                "Seu cabelo merece cuidados especiais, e nosso produto é a solução perfeita para quem busca fios saudáveis e brilhantes. Com uma fórmula inovadora e enriquecida com ingredientes naturais, ele nutre profundamente, repara danos e devolve a vitalidade perdida. Seja qual for o tipo de cabelo, nosso tratamento promove maciez, força e brilho desde a primeira aplicação, garantindo resultados visíveis e duradouros. Transforme seus cabelos com o cuidado que eles merecem!"
-            </p>
-        </div>
-        
-        <div style=" position: absolute; margin-top: 20px; margin-left: 700px;">
-            <img style="width: 600px; height: 520px;" src= "combing.jpg" alt="Mulher escovando o cabelo">
-        </div>
+    <section class="section-body">
+      <div class="info-block">
+        <h2>Como escolher o melhor shampoo</h2>
+        <p>
+          "Seu cabelo merece cuidados especiais, e nosso produto é a solução
+          perfeita para quem busca fios saudáveis e brilhantes. Com uma fórmula
+          inovadora e enriquecida com ingredientes naturais, ele nutre
+          profundamente, repara danos e devolve a vitalidade perdida. Seja qual
+          for o tipo de cabelo, nosso tratamento promove maciez, força e brilho
+          desde a primeira aplicação, garantindo resultados visíveis e
+          duradouros. Transforme seus cabelos com o cuidado que eles merecem!"
+        </p>
+      </div>
+      <img
+        class="img-header"
+        src="combing.jpg"
+        alt="Mulher escovando o cabelo"
+      />
+      <div class="info-block">
+        <h2>Queda de cabelo nunca mais</h2>
+        <p>
+          "Queda de cabelo nunca mais! Nosso produto revolucionário foi
+          desenvolvido para fortalecer os fios desde a raiz, ajudando a prevenir
+          a queda e estimular o crescimento saudável. Com ativos poderosos, ele
+          age diretamente no couro cabeludo, revitalizando os folículos e
+          deixando seus cabelos mais fortes, densos e resistentes. Recupere a
+          confiança com cabelos volumosos e cheios de vida!"
+        </p>
+      </div>
     </section>
 
-    <section style="margin-left: 280px;">
-        <div class="info-block">
-            <h2>Como escolher o melhor shampoo</h2>
-            <p style="margin-top: 10px;">
-                "Queda de cabelo nunca mais! Nosso produto revolucionário foi desenvolvido para fortalecer os fios desde a raiz, ajudando a prevenir a queda e estimular o crescimento saudável. Com ativos poderosos, ele age diretamente no couro cabeludo, revitalizando os folículos e deixando seus cabelos mais fortes, densos e resistentes. Recupere a confiança com cabelos volumosos e cheios de vida!"
-            </p>
-        </div>
+    <section class="section-body">
+      <div class="info-block-2">
+        <h2>Anticaspa</h2>
+        <p>
+          "Diga adeus à caspa! Nosso produto anticaspa foi formulado para
+          combater a descamação do couro cabeludo, promovendo uma limpeza
+          profunda e duradoura. Ele atua desde a primeira aplicação, eliminando
+          a caspa e deixando seus cabelos limpos, frescos e livres da coceira e
+          irritação. Para um couro cabeludo saudável e cabelos incríveis,
+          escolha nossa solução anticaspa!"
+        </p>
+      </div>
     </section>
 
-    <section style="margin-left: 280px;">
-        <div class="info-block-2">
-            <h2>Como escolher o melhor shampoo</h2>
-            <p style="margin-top: 10px;">
-                "Queda de cabelo nunca mais! Nosso produto revolucionário foi desenvolvido para fortalecer os fios desde a raiz, ajudando a prevenir a queda e estimular o crescimento saudável. Com ativos poderosos, ele age diretamente no couro cabeludo, revitalizando os folículos e deixando seus cabelos mais fortes, densos e resistentes. Recupere a confiança com cabelos volumosos e cheios de vida!"
-            </p>
-        </div>
-    </section>
-
-    <section style="margin-left: 280px;">
-        <div class="info-block-3">
-            <p style= "position: relative; margin-left: 140px; color: #fff; font-size: 16px;">
-                "Nossa equipe está à disposição para tirar suas dúvidas e ajudar você a encontrar a solução perfeita para os seus cabelos!"
-            </p>
-        </div>
+    <section class="header-content">
+      <div class="info-block-3">
+        <p class="p-header">
+          "Nossa equipe está à disposição para tirar suas dúvidas e ajudar você
+          a encontrar a solução perfeita para os seus cabelos!"
+        </p>
+      </div>
     </section>
 
     <footer id="Contact">
-        <p>Contact us at: Lucieldo@example.com</p>
+      <p>Contact us at: Lucieldo@example.com</p>
     </footer>
-    
-</body>
+  </body>
 </html>
